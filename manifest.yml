@@ -1,0 +1,9 @@
+applications:
+- name: sacyc
+  memory: 256M
+  instances: 1
+  path: C:\Sites\sacyc
+  buildpacks: 
+    - sacyc
+  routes:
+  - route: sacyc.mybluemix.net
